@@ -62,7 +62,7 @@ class NeotericTechnologiesTest {
         LoginDetails loginDetails=new LoginDetails();
         neotericTechnologies=loginDetails.getLogin(neotericTechnologies,"tharunbabu565@gmail.com","Tharun@123");
         ListOfCourse listOfCourse=new ListOfCourse();
-        neotericTechnologies=listOfCourse.listOfCourses(neotericTechnologies);
+        neotericTechnologies=listOfCourse.viewCourse(neotericTechnologies);
         Assertions.assertNotNull(neotericTechnologies.courseList);
 
     }
@@ -106,7 +106,7 @@ class NeotericTechnologiesTest {
         neotericTechnologies=loginDetails.getLogin(neotericTechnologies,"tharunbabu565@gmail.com","Tharun@123");
 
         ListOfCourse listOfCourse=new ListOfCourse();
-        neotericTechnologies=listOfCourse.listOfCourses(neotericTechnologies);
+        neotericTechnologies=listOfCourse.viewCourse(neotericTechnologies);
         SelectCourse selectCourse=new SelectCourse();
         neotericTechnologies= selectCourse.selectCourse(neotericTechnologies,"java");
 

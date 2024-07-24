@@ -8,7 +8,7 @@ import java.util.List;
 
 public class ListOfCourse {
 
-    public NeotericTechnologies listOfCourses(NeotericTechnologies neotericTechnologies) {
+    public NeotericTechnologies viewCourse(NeotericTechnologies neotericTechnologies) {
         List<Course> courseList=null;
         if (neotericTechnologies.login.isLogin){
             courseList=new ArrayList<>();
